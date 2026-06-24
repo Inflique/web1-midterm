@@ -52,31 +52,43 @@ table {
 body{
     font-size: 12px;
     background-color: #aad4cf;
+    /*I did the embed thing yay*/
     font-family: "Google Sans Flex";
 }
 
+/*swag body style*/
 .container{
+    /*Keep it neat n narrow*/
     max-width: 720px;
+    /*centers the thingy*/
     margin: 0 auto;
+    /*weird trick for the navigation bar*/
     overflow: hidden;
 }
 
 /*** HEADER ***/
 
 header{
+    /*I kept confusing src and url*/
     background-image: url("images/lone-starfish-wide.jpg");
+    /*makes it only ONE pic*/
     background-size: cover;
-    background-position: -72px;
+    /*Putting the starfish in the 
+    /*make header big*/
     height: 280px;
 }
 
 h1{
+    /*rem cause im cool*/
     font-size: 3rem;
+    /*the only white text in the website*/
     color: white;
 }
 
 header h1{
+    /*the only centered thing in the website*/
     text-align: center;
+    /*centering the text vertically*/
     padding-top: 120px;
 }
 
@@ -89,6 +101,7 @@ a{
     color: black;
 }
 
+/*framing the whole section*/
 .navbar{
     width: 720px;
     height: 42px;
@@ -97,10 +110,12 @@ a{
     overflow: hidden;
 }
 
+/*ungluing the nav bar from the header and spacious padding swag*/
 nav a{
     display:inline-block;
     font-size: 1.25rem;
     padding: 8px 82px;
+    /*that last border is HIDDEN*/
     border-right: 2px solid black;
 }
 
@@ -110,11 +125,13 @@ main{
     color: black;
 }
 
+/*font size and making space*/
 h2{
     font-size: 2rem;
     padding: 16px 0 16px 0;
 }
 
+/*wraps the text and sets the size*/
 main img{
     width: 240px;
     height: auto;
@@ -122,39 +139,48 @@ main img{
     float: left;
 }
 
+/*12px looks big for some reason*/
 main{
     font-size: 0.9rem;
 }
 
+/*ungluing the paragraphs even if there are articles, sections, idk*/
 p{
     margin: 0 8px 8px 0 ;
 }
 
 ul{
+    /*makes the bullets visible*/
     padding-left: 20px;
     list-style: disc;
 }
 
+/*the form has a border, i guess?*/
 form{
     width: 680px;
     border: 2px solid black;
     padding: 16px;
 }
 
+/*tweaking size*/
 label{
     font-size: 1.1rem;
 }
 
+/*2 birds 1 stone? try 3 id's 1 modifier*/
 #name, #email, #msg{
     width: 660px;
     margin: 8px 0;
     padding: 4px;
 }
 
+/*giving radio its own space*/
 .visit{
     width: 680px;
     margin: 8px 0;
 }
+
+/*** FOOTER ***/
 
 footer{
     padding: 16px;

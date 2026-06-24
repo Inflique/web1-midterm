@@ -3,29 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title :) -->
     <title>Midterm</title>
 
+    <!-- Fancy Google Font :) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet">
 
+    <!-- Stylesheet :) -->
     <link href="styles/styles.css" rel="stylesheet">
 </head>
 <body>
+    <!-- There's a weird satisfaction styling the body through a div class. It's... classy -->
     <div class="container">
+        <!-- I decided to use these id's for anchor href's you'll see later -->
         <section id="home">
+            <!-- Header :) -->
             <header>
                 <h1>Lone Starfish</h1>
             </header>
         </section>
+        <!-- Why nav bar isn't in a section idk. it just feels right -->
         <nav class="navbar">
+            <!-- Having each href be an id is nice -->
             <a href="#home">HOME</a>
             <a href="#story">STORY</a>
             <a href="#contact">CONTACT</a>
         </nav>
         <main>
+            <!-- Click on story and it'll scroll down to this -->
             <section id="story">
+                <!-- One article for each part of the website body: very very nice -->
                 <article>
+                    <!-- H2 so validator doesn't assassinate me -->
                     <h2>Life of a Starfish</h2>
                     <img src="styles/images/lone-starfish.jpg">
                     <p>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.</p>
@@ -33,6 +44,7 @@
                 
                 <article>
                     <h2>Facts about Starfish</h2>
+                    <!-- I was today years old when I realized bullets are OUTSIDE the max-width -->
                     <ul>
                         <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
                         <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
@@ -42,8 +54,10 @@
                 </article>
             </section>
 
+            <!-- Final id for navigation :) -->
             <section id="contact">
                 <h2>Contact to learn more</h2>
+                <!-- This should paste all the data once you hit send -->
                 <form action="index.html" method="get">
                     <label for="name">Your Name</label>
                     <input type="text" id="name">
@@ -51,6 +65,7 @@
                     <input type="email" id="email">
                     <label for="msg">Your Message</label>
                     <input type="text" id="msg">
+                    <!-- Excluding the Send button because the send button is a one-man army -->
                     <div class="visit">
                         <label for="yes">Yes</label>
                         <input id="yes" type="radio" name="visit">
@@ -59,11 +74,13 @@
                         <label for="maybe">Maybe</label>
                         <input id="maybe" type="radio" name="visit">
                     </div>
-                    <input type="submit" value="SEND" name="SEND">
+                    <!-- There's the send button -->
+                    <input type="submit" value="SEND" name="submit">
                 </form>
             </section>
 
         </main>
+        <!-- copyright so ai can't steal /j-->
         <footer>
             <p>&copy; Lone Starfish.</p>
         </footer>
