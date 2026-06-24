@@ -57,10 +57,14 @@ body{
 
 .container{
     max-width: 720px;
+    margin: 0 auto;
 }
 
 header{
-    background-image: href("images/lone-starfish-wide.jpg");
+    background-image: url("images/lone-starfish-wide.jpg");
+    background-size: cover;
+    background-position: -72px;
+    height: 280px;
 }
 
 h1{
@@ -70,4 +74,23 @@ h1{
 
 header h1{
     text-align: center;
+    padding-top: 120px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    text-align: center;
+    margin: 10px;
+    height: 36px;
+}
+
+nav a{
+    display: inline-block;
+    font-size: 1.25rem;
+    padding: 8px 84px;
+    border-right: 2px solid black;
+    float:left;
 }
