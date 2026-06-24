@@ -82,8 +82,11 @@ header h1{
 
 /*** NAVBAR ***/
 
+
+/* Bye-bye underline and default colors */
 a{
     text-decoration: none;
+    color: black;
 }
 
 .navbar{
@@ -123,7 +126,40 @@ main{
     font-size: 0.9rem;
 }
 
+p{
+    margin: 0 8px 8px 0 ;
+}
+
 ul{
     padding-left: 20px;
     list-style: disc;
 }
+
+form{
+    width: 680px;
+    border: 2px solid black;
+    padding: 16px;
+}
+
+label{
+    font-size: 1.1rem;
+}
+
+#name, #email, #msg{
+    width: 660px;
+    margin: 8px 0;
+    padding: 4px;
+}
+
+.visit{
+    width: 680px;
+    margin: 8px 0;
+}
+
+footer{
+    padding: 16px;
+    text-align: right;
+}
+
+/* I didn't modify the height of the message input box since <input> is only
+single-line */
