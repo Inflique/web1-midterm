@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-/** MAIN STYLES **/
+/*** MAIN STYLES ***/
 
 body{
     font-size: 12px;
@@ -58,7 +58,10 @@ body{
 .container{
     max-width: 720px;
     margin: 0 auto;
+    overflow: hidden;
 }
+
+/*** HEADER ***/
 
 header{
     background-image: url("images/lone-starfish-wide.jpg");
@@ -77,20 +80,50 @@ header h1{
     padding-top: 120px;
 }
 
+/*** NAVBAR ***/
+
 a{
     text-decoration: none;
 }
 
 .navbar{
+    width: 720px;
+    height: 42px;
     text-align: center;
-    margin: 10px;
-    height: 36px;
+    margin: 10px;   
+    overflow: hidden;
 }
 
 nav a{
-    display: inline-block;
+    display:inline-block;
     font-size: 1.25rem;
-    padding: 8px 84px;
+    padding: 8px 82px;
     border-right: 2px solid black;
-    float:left;
+}
+
+/*** MAIN ***/
+
+main{
+    color: black;
+}
+
+h2{
+    font-size: 2rem;
+    padding: 16px 0 16px 0;
+}
+
+main img{
+    width: 240px;
+    height: auto;
+    padding: 0 16px 0 0;
+    float: left;
+}
+
+main{
+    font-size: 0.9rem;
+}
+
+ul{
+    padding-left: 20px;
+    list-style: disc;
 }
